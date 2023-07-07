@@ -12,4 +12,12 @@ public class Toyota extends Car {
     static {
         brand = "TOYOTA";
     }
+
+    public static void main(String[] args) {
+        Toyota toyota1 = new Toyota("corolla","black",2023);
+
+
+        System.out.println("toyota1 = " + toyota1);
+        System.out.println(toyota1.getBrand());
+    }
 }
